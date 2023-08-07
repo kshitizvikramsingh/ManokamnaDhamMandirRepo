@@ -1,0 +1,16 @@
+{
+  "name": "manokamna-dham-mandir",
+  "version": "1.0.0",
+  "description": "Website for Manokamna-Dham-Mandir",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kshitiz Vikram Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

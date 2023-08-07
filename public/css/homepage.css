@@ -1,0 +1,14 @@
+body{
+    background-image: url("/img/back.jpeg.jpg");
+    
+}
+h1{
+    text-align: center;
+}
+.col{
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+#containerForFrontCards{
+    text-align: center;
+}
