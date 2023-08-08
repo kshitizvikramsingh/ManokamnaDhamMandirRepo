@@ -16,6 +16,7 @@ let options1 = {
     "image": "/img/Manokamna_Dham_Mandir (1).jpeg",
     "order_id": h3.textContent, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "callback_url": "/success",
+    "redirect":"false",
     "prefill": {
         "name": "Sample Name needs to be filled",
         "email": "gaurav.kumar@example.com",
