@@ -1,9 +1,12 @@
 body{
     background-image: url("/img/back.jpeg.jpg");
     
+    
 }
 h1{
     text-align: center;
+    color: rgba(68, 39, 231, 0.822);
+    text-shadow: 2px 2px #cc116865;
 }
 .col{
     padding-bottom: 25px;

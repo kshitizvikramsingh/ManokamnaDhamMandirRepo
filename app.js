@@ -37,23 +37,41 @@ app.get("/payment",(req,res)=>{
     
     console.log(req.query.amt)
     let options = {
-    amount: parseInt(req.query.amt),  // amount in the smallest currency unit
+    amount: parseInt(Math.abs(req.query.amt)*100),  // amount in the smallest currency unit
     currency: "INR",
     receipt: "order_receipt"
     };
     instance.orders.create(options, function(err, order) {
-    console.log(order);
-    const orderID=order.id
-    console.log(orderID)
-    const amt=req.query.amt
-    res.render("payment.ejs",{orderID,amt})
+        if(order){
+            console.log(order);
+            const orderID=order.id
+            console.log(orderID)
+            const amt=req.query.amt
+            res.render("payment.ejs",{orderID,amt})
+        }
+        else if(err){
+            const error=err
+            res.render("payment.ejs",{error})
+        }
+
+    
     })
 
     
 })
 
 
+app.post("/success",(req,res)=>{
+    const payID=req.body.razorpay_payment_id
+    const paySign=req.body.razorpay_signature
+    res.render("success",{payID,paySign})
+  
+    console.log()
+    // console.log(res.body.razorpay_payment_id)
+    // console.log(res.body.razorpay_order_id)
+    // console.log(res.body.razorpay_signature)
 
+})
 
 
 

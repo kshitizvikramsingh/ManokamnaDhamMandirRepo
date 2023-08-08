@@ -1,7 +1,10 @@
 <%- include('./partials/header.ejs') -%>
+<link rel="stylesheet" href="/css/homepage.css"> 
+</head>
+<body><h1>Your Donation would be appreciated!</h1>
+    <form  action="/payment">
+        <input name="amt">
+        <button>Pay</button>
+    </form>
+</body>
 
-<h1>Your Donation would be appreciated!</h1>
-<form  action="/payment">
-    <input name="amt">
-    <button>Pay</button>
-</form>

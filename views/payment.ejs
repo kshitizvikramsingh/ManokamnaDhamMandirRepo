@@ -1,16 +1,27 @@
 <%- include('./partials/header.ejs') -%>
 
-The unique order ID is:
-<h3 id="orderID"><%= orderID %></h3>
-<h3 id="amt"> <%= amt %></h3>
-
-    <button id="button">Click to make a Payment</button>
-
-
-
-<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-
-<script src="/js/payment.js"></script>
+<link rel="stylesheet" href="/css/payment.css"> 
+</head>
+<body>
+    The unique order ID is:
+    <% if(!orderID){ %>
+        <h3><%= error %></h3>
+      <% } else { %>  
+        <h3 id="orderID"><%= orderID %></h3>
+     <% } %>
+   
+    The amount you would be donating (in ₹):
+    <h3 id="amt"> <%= amt %></h3>
+    
+        <button id="button">Click to make a Payment</button>
+    
+    
+    
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    
+    <script src="/js/payment.js"></script>
+    
+</body>
 
 
 

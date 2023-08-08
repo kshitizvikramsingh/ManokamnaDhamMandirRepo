@@ -11,11 +11,17 @@ let instance = new Razorpay({
 
 
 let options = {
-amount: h1.textContent,  // amount in the smallest currency unit
+amount: h1.textContent*100,  // amount in the smallest currency unit
 currency: "INR",
 receipt: "order_receipt"
 };
 instance.orders.create(options, function(err, order) {
-console.log(order);
+  if(order){
+    console.log(order);
+  }
+  else {
+    console.log(err)
+  }
+
 })
 
