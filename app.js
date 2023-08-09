@@ -77,6 +77,11 @@ app.get("/acknowledgements",(req,res)=>{
     res.render("acknowledgements.ejs")
 })
 
+app.get("/poojaSthal",(req,res)=>{
+    res.render("poojaSthal.ejs")
+})
+
+
 
 app.listen("80",()=>{
     console.log("App now listeninig on port 80")
