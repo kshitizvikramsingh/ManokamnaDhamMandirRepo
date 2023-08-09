@@ -73,7 +73,9 @@ app.post("/success",(req,res)=>{
 
 })
 
-
+app.get("/acknowledgements",(req,res)=>{
+    res.render("acknowledgements.ejs")
+})
 
 
 app.listen("80",()=>{
