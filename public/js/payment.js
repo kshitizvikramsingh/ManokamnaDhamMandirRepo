@@ -31,4 +31,5 @@ let rzp1 = new Razorpay(options1);
 document.getElementById('button').onclick = function(e){
     rzp1.open();
     e.preventDefault();
+    document.querySelector("p").textContent="Payment Successful"
 }

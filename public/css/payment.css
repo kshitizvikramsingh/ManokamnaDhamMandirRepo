@@ -9,3 +9,7 @@ h1{
     text-align: center;
     color: rgba(68, 39, 231, 0.822);
 }
+
+.card{
+    margin: 20px;
+}

@@ -3,19 +3,62 @@
 <link rel="stylesheet" href="/css/payment.css"> 
 </head>
 <body>
-    The unique order ID is:
-    <% if(!orderID){ %>
-        <h3><%= error %></h3>
-      <% } else { %>  
-        <h3 id="orderID"><%= orderID %></h3>
-     <% } %>
-   
-    The amount you would be donating (in ₹):
-    <h3 id="amt"> <%= amt %></h3>
-    
-        <button id="button">Click to make a Payment</button>
-    
-    
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            
+          </div>
+          <div class="col">
+            <div class="card" style="width: 28rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Payment initiation</h5>
+                  
+                  The unique order ID is:
+                  <% if(!orderID){ %>
+                      <h3><%= error %></h3>
+                    <% } else { %>  
+                      <h6 id="orderID"><%= orderID %></h6>
+                   <% } %>
+                 
+                  <h1>The amount you would be donating (in ₹):</h1>
+                  <h3 id="amt"> <%= amt %></h3>
+                  
+                      <button id="button">Click to make a Payment</button>
+                  
+                  <p></p>
+                 
+        
+        
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     

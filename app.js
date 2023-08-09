@@ -24,8 +24,8 @@ app.get("/",(req,res)=>{
     res.render("homepage.ejs")
 })
 
-app.get("/donate",(req,res)=>{
-    res.render("donate.ejs")
+app.get("/contribute",(req,res)=>{
+    res.render("contribute.ejs")
 })
 
 app.get("/payment",(req,res)=>{
