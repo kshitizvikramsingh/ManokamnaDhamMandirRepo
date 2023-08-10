@@ -81,6 +81,13 @@ app.get("/poojaSthal",(req,res)=>{
     res.render("poojaSthal.ejs")
 })
 
+app.get("/reachus",(req,res)=>{
+    res.render("reachus.ejs")
+})
+
+app.get("/connection",(req,res)=>{
+    res.render("connection.ejs")
+})
 
 
 app.listen("80",()=>{
