@@ -6,14 +6,14 @@ body{
 }
 h1{
     text-align: center;
-    color: rgba(18, 80, 212, 0.822);
+    color: rgba(59, 139, 12, 0.822);
     text-shadow: 2px 2px #ffffff65;
 }
 
 .card{
     text-align: center;
-   
-    background-color: rgba(245, 245, 245, 0.185);
+   color: rgb(99, 19, 19);
+    background-color: rgba(9, 107, 58, 0.185);
     border-color: rgba(240, 248, 255, 0);
     
 }
