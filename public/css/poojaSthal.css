@@ -5,12 +5,13 @@ body{
     
     
 }
-h1{
-    text-align: center;
-    color: rgba(161, 39, 231, 0.822);
+.hero-body .title{
+    border-left:5px solid rgb(41, 84, 202);
+    color: rgba(102, 26, 224, 0.541);
 }
 
-.card{
-    margin: 20px;
-    background-color: rgba(231, 198, 90, 0.315);
+.hero{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(209, 120, 19, 0.295);
 }
