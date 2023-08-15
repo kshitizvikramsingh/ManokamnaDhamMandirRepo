@@ -3,35 +3,24 @@
 </head>
 <body>
   
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Your Contribution would be appreciated!</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">आपका योगदान प्रशंसनिए रहेगा </h6>
-                  <p class="card-text">Please enter the amount you want to contribute below: </p>
-                  <h6 class="card-subtitle mb-2 text-muted">कृपया अपना योगदान नीचे डालें </h6>
-                  
-                  
-                  <form  action="/payment">
-                    <!-- <input name="amt" placeholder="under Development"> -->
-                    <!-- <button>Under Dev</button> -->
-                </form>
-                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_MNrrttqbbgVwpW" async> </script> </form>
-
+      <div class="tile is-ancestor">
         
-                </div>
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child ">
+                <p class="title">
+                  <h5 class="card-title"><b>Your Contribution would be appreciated!</b></h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><b>आपका योगदान प्रशंसनिए रहेगा</b></h6>
+                  <p class="card-text"><b>Please enter the amount you want to contribute below:</b> </p>
+                  <h6 class="card-subtitle mb-2 text-muted"><b>कृपया अपना योगदान नीचे डालें</b> </h6>
+                </p>
+                <p class="subtitle"> <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_MNrrttqbbgVwpW" async> </script> </form></p>
+              </article>
+              
+            </div>
+           
               </div>
-          </div>
-          <div class="col">
-            
-          </div>
-        </div>
-      </div>
+           
+
       <div id="loadIcon">
         <div class="spinner-border" role="status">
           <span class="visually-hidden">Loading...</span>

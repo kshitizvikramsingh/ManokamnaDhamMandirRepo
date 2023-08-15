@@ -1,20 +1,17 @@
 body{
     background-image: url("/img/back.jpeg.jpg");
-    background-size:cover ;
-    text-align: center;
-
-
-   
-    
+    background-size:cover ;  
 }
-h1 .title{
+.tile .title{
     text-align: center;
-    color: rgba(18, 80, 212, 0.822);
+    color: rgb(99, 18, 3);
     text-shadow: 2px 2px #ffffff65;
 }
-
+#top-level-hero{
+    background-color: #1362d857;
+}
 #hero-1{
-    background-color: rgba(209, 181, 25, 0.26);
+    background-color: rgba(209, 114, 25, 0.26);
     margin-top: 20px;
     margin-bottom: 20px;
    
@@ -32,11 +29,14 @@ h1 .title{
    
 }
 
+iframe{
+    display: inline;
+}
 
 
-#border .title{
-    
-    border-left:5px solid rgb(11, 70, 233);
+#border #hero-title{
+    text-align: left;
+    border-left:5px solid rgb(41, 84, 202);
     margin-bottom: 10px;
     color: rgba(8, 41, 148, 0.664);
 }
@@ -45,8 +45,8 @@ h1 .title{
     
 }
 
-hr{
-    height: 10px;
+#top-title{
+    text-align: center;
 }
 
 
