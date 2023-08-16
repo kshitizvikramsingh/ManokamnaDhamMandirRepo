@@ -83,8 +83,8 @@ app.get("/poojaSthal",(req,res)=>{
 })
 
 app.get("/reachus",(req,res)=>{
-    
-    res.render("reachus.ejs")
+    module.exports={mapboxgl}
+  res.render("reachus.ejs")
 })
 
 app.get("/connection",(req,res)=>{
