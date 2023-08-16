@@ -1,0 +1,12 @@
+body{
+    background-image: url("/img/back.jpeg.jpg");
+    color: rgba(68, 39, 231, 0.822);
+    text-align: center;
+    
+    
+}
+
+.card{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}

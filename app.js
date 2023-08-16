@@ -2,6 +2,7 @@ const express=require("express")
 const path=require("path")
 const ejs=require("ejs")
 const Razorpay=require("razorpay")
+const mapboxgl = require('mapbox-gl');
 
 const app=express()
 
@@ -82,6 +83,7 @@ app.get("/poojaSthal",(req,res)=>{
 })
 
 app.get("/reachus",(req,res)=>{
+    
     res.render("reachus.ejs")
 })
 
