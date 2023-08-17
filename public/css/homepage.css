@@ -11,7 +11,7 @@ body{
     background-color: #1362d857;
 }
 #hero-1{
-    background-color: rgba(209, 114, 25, 0.26);
+    background-color: rgba(255, 238, 4, 0.438);
     margin-top: 20px;
     margin-bottom: 20px;
    
@@ -47,6 +47,9 @@ iframe{
 
 #top-title{
     text-align: center;
+    background: linear-gradient(to right,#caad09 0%, #c78a05 50%,#dd4c9c 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
