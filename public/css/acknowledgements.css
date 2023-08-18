@@ -10,14 +10,10 @@ h1{
     text-shadow: 2px 2px #ffffff65;
 }
 
-.card{
+.hero{
     
     margin-top: 20px;
-    background-color: rgba(245, 245, 245, 0.185);
-    border-color: rgba(240, 248, 255, 0);
-    text-align: center;
-}
-
-.card-subtitle{
-    color: rgb(79, 21, 11);
+    margin-bottom: 20px;
+    background-color: rgba(127, 255, 212, 0.315);
+    
 }
