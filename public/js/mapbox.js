@@ -39,7 +39,7 @@ setTimeout(function() {
     zoom: 1
     });
     //your code to be executed after 1 second
-}, 500);
+}, 1000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -50,7 +50,7 @@ setTimeout(function() {
     zoom: 2
     });
     //your code to be executed after 1 second
-}, 1000);
+}, 2000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -61,7 +61,7 @@ setTimeout(function() {
     zoom: 3
     });
     //your code to be executed after 1 second
-}, 1500);
+}, 3000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -72,7 +72,7 @@ setTimeout(function() {
     zoom: 4
     });
     //your code to be executed after 1 second
-}, 2000);
+}, 4000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -83,7 +83,7 @@ setTimeout(function() {
     zoom: 5
     });
     //your code to be executed after 1 second
-}, 2500);
+}, 5000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -94,7 +94,7 @@ setTimeout(function() {
     zoom: 6
     });
     //your code to be executed after 1 second
-}, 3000);
+}, 6000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -105,7 +105,7 @@ setTimeout(function() {
     zoom: 7
     });
     //your code to be executed after 1 second
-}, 3500);
+}, 7000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -116,7 +116,7 @@ setTimeout(function() {
     zoom: 8
     });
     //your code to be executed after 1 second
-}, 4000);
+}, 8000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -127,7 +127,7 @@ setTimeout(function() {
     zoom: 9
     });
     //your code to be executed after 1 second
-}, 4500);
+}, 9000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -138,7 +138,7 @@ setTimeout(function() {
     zoom: 10
     });
     //your code to be executed after 1 second
-}, 5000);
+}, 10000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -149,7 +149,7 @@ setTimeout(function() {
     zoom: 11
     });
     //your code to be executed after 1 second
-}, 5500);
+}, 11000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -160,7 +160,7 @@ setTimeout(function() {
     zoom: 12
     });
     //your code to be executed after 1 second
-}, 6000);
+}, 12000);
 setTimeout(function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3NoaXRpejIxMDQiLCJhIjoiY2xnMjYwNHpzMDJiNzNubG8xZGszOXdnZyJ9.wd3pEFZuVlguNBkk7NPKiA';
     const map = new mapboxgl.Map({
@@ -247,7 +247,7 @@ setTimeout(function() {
         map.getCanvas().style.cursor = '';
         });
         });
-}, 6500);
+}, 13000);
 // Add markers to the map.
 
 
