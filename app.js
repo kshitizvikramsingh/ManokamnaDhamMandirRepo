@@ -24,6 +24,9 @@ app.use(express.static(public))
 app.get("/",(req,res)=>{
     res.render("homepage.ejs")
 })
+app.get("/terms",(req,res)=>{
+    res.render("terms.ejs")
+})
 
 app.get("/contribute",(req,res)=>{
     res.render("contribute.ejs")
