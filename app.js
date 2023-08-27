@@ -102,8 +102,8 @@ app.get("/login",(req,res)=>{
         res.redirect("https://manokamnadham.auth.us-east-1.amazoncognito.com/login?client_id=3r9270ruo09dg8ac1vj7ft1dg&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%2Flogin")
     }
 })
-app.get("/logout",(req,res)=>{
-    res.render("logout.ejs")
+app.get("/team",(req,res)=>{
+    res.render("team.ejs")
 })
 app.listen("80",()=>{
     console.log("App now listeninig on port 80")

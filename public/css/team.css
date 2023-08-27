@@ -1,0 +1,98 @@
+
+ body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient( to right,rgba(23, 84, 146, 0.726), #11111100);
+    text-align: center;
+    
+  }
+
+  .snowflake {
+    --size: 1vw;
+    width: 0.6vw;
+    height: 0.6vw;
+    background: rgb(224, 209, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: -5vh;
+    animation: snowfall 3s linear infinite;
+  }
+  @keyframes snowfall {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 110vh, 0);
+    }
+  }
+ 
+  .snowflake:nth-of-type(0) {
+    --size: 0.6vw;
+    left: 55vw;
+    animation: snowfall 8s linear infinite;
+  }
+  .snowflake:nth-of-type(1) {
+    --size: 0.6vw;
+    left: 49vw;
+    animation: snowfall 8s linear infinite;
+  }
+  .snowflake:nth-of-type(2) {
+    --size: 0.6vw;
+    left: 67vw;
+    animation: snowfall 8s linear infinite;
+  } 
+ 
+  .snowflake:nth-of-type(3) {
+    --size: 0.6vw;
+    left: 56vw;
+    animation: snowfall 8s linear infinite;
+  } 
+  .snowflake:nth-of-type(4) {
+    --size: 0.6vw;
+    left: 98vw;
+    animation: snowfall 8s linear infinite;
+  } 
+  .snowflake:nth-of-type(5) {
+    --size: 0.6vw;
+    left: 78vw;
+    animation: snowfall 8s linear infinite;
+  } 
+
+  .snowflake:nth-of-type(6) {
+    --size: 0.6vw;
+    left: 12vw;
+    animation: snowfall 8s linear infinite;
+  } 
+  .snowflake:nth-of-type(7) {
+    --size: 0.6vw;
+    left: 24vw;
+    animation: snowfall 8s linear infinite;
+  } 
+  .snowflake:nth-of-type(8) {
+    --size: 0.6vw;
+    left: 43vw;
+    animation: snowfall 8s linear infinite;
+  } 
+
+  img {
+    border-radius: 50%;
+    border-width: 2px;
+    
+  }
+
+
+  .tile .is-child p {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .tile .is-child p:hover {
+    box-shadow: inset 2000px 0 0 0 #54b3d6;
+    color: white;
+  }
